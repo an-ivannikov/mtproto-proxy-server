@@ -2,6 +2,7 @@
 
 ![mtproto-proxy-server](mtproto-proxy-server.png)
 
+Uses [MTProxy](https://github.com/TelegramMessenger/MTProxy)
 
 **Checked in**:  
 - [x] Linux Ubuntu 16.04 [AWS]
