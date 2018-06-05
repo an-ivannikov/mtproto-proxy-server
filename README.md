@@ -1,3 +1,5 @@
+![mtproto-proxy-server](mtproto-proxy-server.png)
+
 # MTProxy mtproto-proxy mtproto-proxy-server
 
 
@@ -9,9 +11,9 @@ cd mtproto-proxy-server
 sudo sh ./install.sh
 ```
 
-## Register your proxy with @MTProxybot on Telegram.
+## Register your proxy with [@MTProxybot](tg://resolve?domain=@MTProxybot) on [Telegram](https://www.telegram.org).
 
-> <host>:<port>
+> host:port
 > mtproto-secret
 
 ## Activate promotion
