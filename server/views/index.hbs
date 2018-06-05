@@ -1,0 +1,327 @@
+<div class="container clearfix" style="background-color: green; color: white; text-align: center; margin: 50px;">
+  <h1>{{title}}</h1>
+  <p>Welcome to {{title}}</p>
+  <h2>Server: </h2>
+  <ul>
+    <li>ip: {{server.ip}}</li>
+    <li>country: {{server.country}}</li>
+    <li>city: {{server.city}} ({{server.country_iso}})</li>
+    <li>hostname: {{server.hostname}}</li>
+  </ul>
+  <h3>MTPROTO Links:</h3>
+  <ul style="color: white; font-size: 16px;">
+  {{#each links}}
+    <li><a href="{{href}}" style="color: white;">{{href}}</a></li>
+  {{/each}}
+  </ul>
+</div>
+
+
+<div id="fb-root"></div>
+<div class="tl_page_wrap">
+  <div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+    <div class="navbar-inner">
+      <div class="container clearfix">
+        <ul class="nav navbar-nav navbar-right"><li class="navbar-twitter"><a href="https://twitter.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)"><i class="icon icon-twitter"></i><span class="hidden-xs"> Twitter</span></a></li></ul>
+<ul class="nav navbar-nav">
+<li class="active"><a href="https://www.telegram.org/">Home</a></li>
+<li class=""><a href="https://www.telegram.org/faq">FAQ</a></li>
+<li class=""><a href="https://www.telegram.org/apps">Apps</a></li>
+<li class="hidden-xs "><a href="https://core.telegram.org/api">API</a></li>
+<li class="hidden-xs "><a href="https://core.telegram.org/mtproto">Protocol</a></li>
+</ul>
+      </div>
+    </div>
+  </div>
+  <div class="container clearfix tl_page_container tl_main_page_container">
+    <div class="tl_page">
+      <div class="tl_main_wrap">
+<div class="tl_main_head">
+<div class="tl_main_side_blog"><div class="side_blog_wrap">
+<a href="https://www.telegram.org/blog" class="side_blog_header">Recent News</a>
+<div class="side_blog_entries">
+<a href="https://www.telegram.org/blog/200-million" class="side_blog_entry">
+<div class="side_blog_date">Mar 22</div>
+<div class="side_blog_title">200,000,000 Monthly Active Users</div>
+</a><a href="https://www.telegram.org/blog/discover-stickers-and-more" class="side_blog_entry">
+<div class="side_blog_date">Mar 22</div>
+<div class="side_blog_title">Sticker Search, Multiple Photos, and More</div>
+</a><a href="https://www.telegram.org/blog/android-streaming" class="side_blog_entry">
+<div class="side_blog_date">Feb 6</div>
+<div class="side_blog_title">Streaming and Auto-Night Mode on Android</div>
+</a>
+</div>
+</div></div>
+<div class="tl_main_logo_wrap">
+  <a href="https://www.telegram.org/" class="tl_main_logo">
+    <img class="tl_main_logo" src="/img/t_logo.png" alt="Telegram logo">
+    <div class="tl_main_logo_title_image"></div>
+  </a>
+  <p class="tl_main_logo_lead">a new era of messaging</p>
+</div>
+</div>
+
+<div class="tl_main_download_mobile clearfix">
+<div class="tl_main_download_mobile clearfix">
+<a href="https://www.telegram.org/dl/android" class="tl_main_download_link tl_main_download_link_android" target="_blank" data-track="AppDownload/Android" onclick="trackDlClick(this, event)">
+<i class="icon icon-android"></i>Telegram for <strong>Android</strong>
+</a><a href="https://www.telegram.org/dl/ios" class="tl_main_download_link tl_main_download_link_ios" target="_blank" data-track="AppDownload/iOS" onclick="trackDlClick(this, event)">
+<i class="icon icon-ios"></i>Telegram for <strong>iPhone</strong> / <strong>iPad</strong>
+</a><a href="https://www.telegram.org/dl/wp" class="tl_main_download_link tl_main_download_link_wp" target="_blank" data-track="AppDownload/WP" onclick="trackDlClick(this, event)">
+<i class="icon icon-wp"></i>Telegram for <strong>WP</strong>
+</a>
+<a href="https://desktop.telegram.org/" class="tl_main_download_link tl_main_download_link_tdesktop" data-track="AppDownload/TDesktop" onclick="trackDlClick(this, event)">
+Telegram for <strong>Windows / Mac / Linux</strong>
+</a>
+
+<a class="tl_main_download_more_btn" href="https://www.telegram.org/apps">Browse more Telegram apps<i class="icon icon-arrow-more"></i></a>
+</div>
+</div>
+
+<div class="tl_main_download_desktop_section">
+<h3 class="tl_main_download_desktop_header">A native app for every platform</h3>
+
+<div class="tl_main_download_desktop_wrap1">
+  <div class="tl_main_download_desktop_wrap">
+    <div class="tl_main_download_desktop clearfix">
+      <div class="tl_main_download_desktop_links clearfix">
+        <a href="https://www.telegram.org/dl/webogram" class="tl_main_download_desktop_link tl_main_download_link_web" target="_blank" data-track="DesktopDownload/Web" onclick="trackDlClick(this, event)">
+          Telegram <strong>Web‑version</strong>
+        </a><a href="https://macos.telegram.org/" class="tl_main_download_desktop_link tl_main_download_link_osx" data-track="DesktopDownload/OSX" onclick="trackDlClick(this, event)">
+          Telegram&nbsp;for <strong>macOS</strong>
+        </a><a href="https://desktop.telegram.org/" class="tl_main_download_desktop_link tl_main_download_link_td" data-track="DesktopDownload/TDesktop" onclick="trackDlClick(this, event)">
+          Telegram&nbsp;for <strong>PC/Mac/Linux</strong>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="tl_main_body">
+<a name="why-switch-to-Telegram"></a>
+<h3 class="tl_main_body_header">Why switch to Telegram?</h3>
+
+<div class="tl_main_cards clearfix">
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_private"></div>
+    <h3 class="tl_main_card_header">Private</h3>
+    <div class="tl_main_card_lead"><strong>Telegram</strong> messages are heavily
+      encrypted and can self-destruct.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_cloud"></div>
+    <h3 class="tl_main_card_header">Cloud-Based</h3>
+    <div class="tl_main_card_lead"><strong>Telegram</strong> lets you access your messages from multiple devices.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_fast"></div>
+    <h3 class="tl_main_card_header">Fast</h3>
+    <div class="tl_main_card_lead"><strong>Telegram</strong> delivers messages faster than any other application.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_decentralized"></div>
+    <h3 class="tl_main_card_header">Distributed</h3>
+    <div class="tl_main_card_lead"><strong>Telegram</strong> servers are spread worldwide for security and speed.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_open"></div>
+    <h3 class="tl_main_card_header">Open</h3>
+    <div class="tl_main_card_lead"><strong>Telegram</strong> has an open <a href="https://core.telegram.org/api">API</a> and <a href="https://core.telegram.org/mtproto">protocol</a> free for everyone.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_free"></div>
+    <h3 class="tl_main_card_header">Free</h3>
+    <div class="tl_main_card_lead"><strong>Telegram</strong> is free forever. No ads. No subscription fees.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_secure"></div>
+    <h3 class="tl_main_card_header">Secure</h3>
+    <div class="tl_main_card_lead"><strong>Telegram</strong> keeps your messages safe from <a href="https://www.telegram.org/crypto_contest">hacker attacks</a>.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_powerful"></div>
+    <h3 class="tl_main_card_header">Powerful</h3>
+    <div class="tl_main_card_lead"><strong>Telegram</strong> has no limits on the size of your media and c<s>h</s>ats.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell_last">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_wecandoit"></div>
+    <h3 class="tl_main_card_header">We Can do It!</h3>
+    <div class="tl_main_card_lead">Help make messaging safe again – spread the word about <strong>Telegram</strong>.</div>
+  </div>
+</div>
+</div>
+</div>
+<div class="tl_main_body">
+<a name="what-can-you-do-with-Telegram"></a>
+<h3 class="tl_main_body_header">What can you do with Telegram?</h3>
+
+<div class="tl_main_cards clearfix">
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_connect" title="Tour the Moon with robots"></div>
+    <h3 class="tl_main_card_header">Connect</h3>
+    <div class="tl_main_card_lead">from most remote locations.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_coordinate" title="Take a hot bath in your suit"></div>
+    <h3 class="tl_main_card_header">Coordinate</h3>
+    <div class="tl_main_card_lead">groups of up to 100000 members.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_synchronize" title="Discover a twin brother in your toilet"></div>
+    <h3 class="tl_main_card_header">Synchronize</h3>
+    <div class="tl_main_card_lead">your chats across all your devices.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_send" title="Say no to a parrot"></div>
+    <h3 class="tl_main_card_header">Send</h3>
+    <div class="tl_main_card_lead">documents of any type.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_encrypt" title="Walk around wearing a horse head"></div>
+    <h3 class="tl_main_card_header">Encrypt</h3>
+    <div class="tl_main_card_lead">personal and business secrets.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_destruct" title="Help a cat blow up the parliament"></div>
+    <h3 class="tl_main_card_header">Destruct</h3>
+    <div class="tl_main_card_lead">your messages with a timer.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell_last">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_store" title="Grow 4 extra arms"></div>
+    <h3 class="tl_main_card_header">Store</h3>
+    <div class="tl_main_card_lead">your media in the cloud.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_build" title="Extract phones from a hippo"></div>
+    <h3 class="tl_main_card_header">Build</h3>
+    <div class="tl_main_card_lead">your own tools on our API.</div>
+  </div>
+</div>
+
+<div class="tl_main_card_cell">
+  <div class="tl_main_card_wrap">
+    <div class="tl_main_card tl_main_card_process" title="Get famous and busy"></div>
+    <h3 class="tl_main_card_header">Enjoy</h3>
+    <div class="tl_main_card_lead">feedback from your customers.</div>
+  </div>
+</div>
+</div>
+</div>
+<div class="tl_main_noshare clearfix"></div>
+
+</div>
+
+    </div>
+  </div>
+</div>
+<div class="footer_wrap">
+<div class="footer_columns_wrap clearfix footer_desktop">
+<div class="footer_column footer_column_telegram">
+  <h5>Telegram</h5>
+  <div class="footer_telegram_description"></div>
+  Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+</div>
+
+<div class="footer_column">
+  <h5><a href="https://www.telegram.org/faq">About</a></h5>
+  <ul>
+    <li><a href="https://www.telegram.org/faq">FAQ</a></li>
+    <li><a href="https://www.telegram.org/blog">Blog</a></li>
+    <li><a href="https://www.telegram.org/press">Press</a></li>
+  </ul>
+</div>
+<div class="footer_column">
+  <h5><a href="https://www.telegram.org/apps#mobile-apps">Mobile Apps</a></h5>
+  <ul>
+    <li><a href="https://www.telegram.org/dl/ios">iPhone/iPad</a></li>
+    <li><a href="https://www.telegram.org/dl/android">Android</a></li>
+    <li><a href="https://www.telegram.org/dl/wp">Windows Phone</a></li>
+  </ul>
+</div>
+<div class="footer_column">
+  <h5><a href="https://www.telegram.org/apps#desktop-apps">Desktop Apps</a></h5>
+  <ul>
+    <li><a href="https://desktop.telegram.org/">PC/Mac/Linux</a></li>
+    <li><a href="https://macos.telegram.org/">macOS</a></li>
+    <li><a href="https://www.telegram.org/dl/web">Web-browser</a></li>
+  </ul>
+</div>
+<div class="footer_column footer_column_platform">
+  <h5><a href="https://core.telegram.org/">Platform</a></h5>
+  <ul>
+    <li><a href="https://core.telegram.org/api">API</a></li>
+    <li><a href="https://translations.telegram.org/">Translations</a></li>
+    <li><a href="https://instantview.telegram.org/">Instant View</a></li>
+  </ul>
+</div>
+</div>
+<div class="footer_columns_wrap clearfix footer_mobile">
+<div class="footer_column">
+  <h5><a href="https://www.telegram.org/faq">About</a></h5>
+</div>
+<div class="footer_column">
+  <h5><a href="https://www.telegram.org/blog">Blog</a></h5>
+</div>
+<div class="footer_column">
+  <h5><a href="https://www.telegram.org/apps">Apps</a></h5>
+</div>
+<div class="footer_column">
+  <h5><a href="https://core.telegram.org/">Platform</a></h5>
+</div>
+<div class="footer_column">
+  <h5><a href="https://twitter.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">Twitter</a></h5>
+</div>
+</div>
+</div>
+<script src="/js/main.js"></script>
+
+<script>backToTopInit();
+</script>
