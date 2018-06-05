@@ -1,7 +1,28 @@
 {
   "name": "mtproto-proxy-server",
-  "version": "0.1.0",
+  "description": "MTProxy MTPROTO is proxy for Telegram",
+  "keywords": [
+    "telegram",
+    "proxy",
+    "mtproto",
+    "mtproxy",
+    "mtproto-proxy",
+    "mtproto-proxy-server",
+    "server"
+  ],
+  "version": "0.1.2",
   "private": true,
+  "main": "./server/bin/www",
+  "author": "Alexander Ivannikov <a.n.ivannikov@yandex.ru> (https://github.com/an-ivannikov)",
+  "license": "MIT",
+  "homepage": "https://an-ivannikov.github.io/mtproto-proxy-server/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/an-ivannikov/mtproto-proxy-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/an-ivannikov/mtproto-proxy-server/issues"
+  },
   "scripts": {
     "start": "node ./server/bin/www"
   },
