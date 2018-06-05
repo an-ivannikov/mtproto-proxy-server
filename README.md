@@ -4,13 +4,13 @@
 
 ## FREE MTPROTO proxy for Telegram
 
-> [FREE MTPROTO proxy for Telegram tg ip link](tg://proxy?server=18.188.98.211&port=443&secret=36bff543ca451163b07396449727658c)
+> FREE MTPROTO proxy for Telegram tg ip link tg://proxy?server=18.188.98.211&port=443&secret=36bff543ca451163b07396449727658c
 
 > [FREE MTPROTO proxy for Telegram t.me ip link](https://t.me/proxy?server=18.188.98.211&port=443&secret=36bff543ca451163b07396449727658c)
 
 or
 
-> [FREE MTPROTO proxy for Telegram tg hostname link](tg://proxy?server=ec2-18-188-98-211.us-east-2.compute.amazonaws.com&port=443&secret=36bff543ca451163b07396449727658c)
+> FREE MTPROTO proxy for Telegram tg hostname link tg://proxy?server=ec2-18-188-98-211.us-east-2.compute.amazonaws.com&port=443&secret=36bff543ca451163b07396449727658c
 
 > [FREE MTPROTO proxy for Telegram t.me hostname link](https://t.me/proxy?server=ec2-18-188-98-211.us-east-2.compute.amazonaws.com&port=443&secret=36bff543ca451163b07396449727658c)
 
