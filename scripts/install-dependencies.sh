@@ -140,6 +140,19 @@ else
   fi
 fi
 
+# Проверка пакета zlib1g-dev
+I=`dpkg -s "zlib1g-dev" | grep "Status" `
+if [ "$I" = "Status: install ok installed" ]; then
+  echo "|---> zlib1g-dev установлен"
+else
+  echo "|---> zlib1g-dev не установлен"
+  apt-get install -y zlib1g-dev
+  if [ $? -eq 0 ]; then
+    echo "|---> Установка zlib1g-dev прошла успешно"
+  else
+    echo -e "|---> Установка zlib1g-dev завершилась ошибкой"
+  fi
+
 
 # Проверка пакета vnstat
 I=`dpkg -s "vnstat" | grep "Status" `
