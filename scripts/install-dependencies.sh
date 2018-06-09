@@ -110,6 +110,20 @@ else
   fi
 fi
 
+# Проверка пакета git
+I=`dpkg -s "git" | grep "Status" `
+if [ "$I" = "Status: install ok installed" ]; then
+  echo "|---> git установлен"
+else
+  echo "|---> git не установлен"
+  apt-get install -y git
+  if [ $? -eq 0 ]; then
+    echo "|---> Установка git прошла успешно"
+  else
+    echo "|---> Установка git завершилась ошибкой"
+  fi
+fi
+
 
 
 # Проверка пакета build-essential
@@ -152,7 +166,7 @@ else
   else
     echo -e "|---> Установка zlib1g-dev завершилась ошибкой"
   fi
-
+fi
 
 # Проверка пакета vnstat
 I=`dpkg -s "vnstat" | grep "Status" `
